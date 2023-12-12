@@ -1,0 +1,15 @@
+$TTL    604800
+@       IN      SOA     ns01.taller.org. admin.taller.org. (
+                              2008052001 ; N  mero de serie
+                              604800     ; Refresh
+                              86400      ; Retry
+                              2419200    ; Expira en 4 semanas
+                              604800 )   ; TTL negativo
+
+@       IN      NS      ns01.taller.org.
+@       IN      NS      ns02.taller.org.
+mc01   IN      A       10.18.55.242
+mc02   IN      A       10.18.55.243
+mc03   IN      A       10.18.55.244
+mc04   IN      A       10.18.55.245
+mc05   IN      A       10.18.55.246
