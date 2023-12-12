@@ -1,0 +1,22 @@
+$TTL    604800
+@       IN      SOA     ns01.taller.org. admin.taller.org. (
+                              2008052001 ; N  mero de serie
+                              604800     ; Refresh
+                              86400      ; Retry
+                              2419200    ; Expira en 4 semanas
+                              604800 )   ; TTL negativo
+
+@       IN      NS      ns01.taller.org.
+@       IN      NS      ns02.taller.org.
+@       IN      MX      10 mail1.taller.org.
+@       IN      MX      20 mail2.taller.org.
+www     IN      CNAME   web.taller.org.
+ftp     IN      CNAME   file.taller.org.
+ns01    IN      A       192.168.145.50
+ns02    IN      A       192.168.145.51
+mail1   IN      A       192.168.145.52
+mail2   IN      A       192.168.145.53
+web     IN      A       192.168.145.54
+file    IN      A       192.168.145.55
+mecanicos   IN  NS  ns01.taller.org.
+mecanicos   IN  NS  ns02.taller.org.
