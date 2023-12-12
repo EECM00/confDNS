@@ -1,0 +1,12 @@
+zone "taller.org" {
+    type master;
+    file "/etc/bind/db.taller.org";
+};
+zone "mecanicos.taller.org" {
+    type master;
+    file "/etc/bind/db.mecanicos.taller.org";
+};
+zone "55.18.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.55.18.10";
+};
